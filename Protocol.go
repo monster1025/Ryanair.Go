@@ -4,6 +4,7 @@ import (
 	"time"
 )
 
+// direction response
 type FlightDirection struct {
 	AirportFrom string `json:"airportFrom"`
 	AirportTo   string `json:"airportTo"`
